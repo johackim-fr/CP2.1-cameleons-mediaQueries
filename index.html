@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caméléons</title>
+    <!-- Primordial pour pouvoir définir des media queries -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Emmet: h1{J'aime les caméléons!}+nav>ul>li*3>a^^^nav>ul>li*2>img -->
+            <h1 class="page-title">J'<span class="heart">&#10084;</span> les caméléons!</h1>
+
+            <div class="menu-social-links-container">
+                <nav class="menu">
+                    <ul>
+                        <li class="menu__item"><a href="" class="menu__link">About</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Blog</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="social-links">
+                    <ul>
+                        <li class="social-links__item"><a href=""><img class="social-links__icon" src="./images/twitter_icon.png" alt="Twitter icon"></a></li>
+                        <li class="social-links__item"><a href=""><img class="social-links__icon" src="./images/facebook_icon.png" alt="Facebook icon"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- Emmet: section#intro>h2{Trop de caméléons? nope.}+p^section#cameleon-of-the-week>h2+img^section#gallery+aside>h3+p+h3+p -->
+            <section id="intro" class="intro">
+                <h2 class="intro__title">Trop de caméléons? nope.</h2>
+                <p class="intro__text">
+                    Ici nous pensons qu'il n'y aura jamais trop de caméléons. Les caméléons, c'est mignon. Les caméléons, c'est pas con. Les
+                    caméléons, ça sent le bonbon. il est <a class="link" href="https://fr.wikipedia.org/wiki/Les_Cam%C3%A9l%C3%A9ons">prouvé
+                        scientifiquement</a> que regarder les caméléons tous les jours améliore la productivité et diminue le stress.
+                    Essayez !
+                    Voyez-vous un retour à la ligne ?
+                </p>
+            </section>
+            <section id="cameleon-of-the-week" class="cameleon-of-the-week">
+                <h2 class="cameleon-of-the-week__title">Le caméléon de la semaine &#9825;</h2>
+                <img class="cameleon-of-the-week__picture" src="./images/cameleon-big.jpg" alt="Caméléon de la semaine">
+            </section>
+            <div class="gallery-submit">
+                <section id="gallery" class="gallery">
+                    <!-- Emmet: img.gallery__thumbnail[src="./images/cameleon$$.jpg" alt="Caméléon n°$"]*20 -->
+                    <img src="./images/cameleon01.jpg" alt="Caméléon n°1" class="gallery__thumbnail gallery__thumbnail--big">
+                    <img src="./images/cameleon02.jpg" alt="Caméléon n°2" class="gallery__thumbnail">
+                    <img src="./images/cameleon03.jpg" alt="Caméléon n°3" class="gallery__thumbnail">
+                    <img src="./images/cameleon04.jpg" alt="Caméléon n°4" class="gallery__thumbnail">
+                    <img src="./images/cameleon05.jpg" alt="Caméléon n°5" class="gallery__thumbnail">
+                    <img src="./images/cameleon06.jpg" alt="Caméléon n°6" class="gallery__thumbnail">
+                    <img src="./images/cameleon07.jpg" alt="Caméléon n°7" class="gallery__thumbnail">
+                    <img src="./images/cameleon08.jpg" alt="Caméléon n°8" class="gallery__thumbnail">
+                    <img src="./images/cameleon09.jpg" alt="Caméléon n°9" class="gallery__thumbnail">
+                    <img src="./images/cameleon10.jpg" alt="Caméléon n°10" class="gallery__thumbnail">
+                    <img src="./images/cameleon11.jpg" alt="Caméléon n°11" class="gallery__thumbnail">
+                    <img src="./images/cameleon12.jpg" alt="Caméléon n°12" class="gallery__thumbnail">
+                    <img src="./images/cameleon13.jpg" alt="Caméléon n°13" class="gallery__thumbnail">
+                    <img src="./images/cameleon14.jpg" alt="Caméléon n°14" class="gallery__thumbnail">
+                    <img src="./images/cameleon15.jpg" alt="Caméléon n°15" class="gallery__thumbnail">
+                    <img src="./images/cameleon16.jpg" alt="Caméléon n°16" class="gallery__thumbnail">
+                    <img src="./images/cameleon17.jpg" alt="Caméléon n°17" class="gallery__thumbnail">
+                    <img src="./images/cameleon18.jpg" alt="Caméléon n°18" class="gallery__thumbnail">
+                    <img src="./images/cameleon19.jpg" alt="Caméléon n°19" class="gallery__thumbnail">
+                    <img src="./images/cameleon20.jpg" alt="Caméléon n°20" class="gallery__thumbnail">
+                </section>
+                <aside class="submit">
+                    <h3 class="submit__title">Soumettez vos photos de caméléons!</h3>
+                    <p class="submit__text">
+                        Vous avez trouvé une photo de caméléon tellement mignonne que vous voulez la partager?
+                        <a class="link" href="#">Partagez là ici!</a>
+                    </p>
+                    <h3 class="submit__title">Inscrivez vous à notre newsletter!</h3>
+                    <p class="submit__text">
+                        <a class="link" href="#">Souscrivez ici.</a>
+                    </p>
+                </aside>
+            </div>
+        </main>
+        <footer>
+            <p class="copyright">
+                Copyright &copy; 2017 I &hearts; Caméléons
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
